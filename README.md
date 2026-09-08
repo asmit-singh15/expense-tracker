@@ -282,23 +282,4 @@ cd backend
 
 ---
 
-## 📸 Screenshots & UI Walkthrough
 
-### 1. Dashboard (`/`)
-* Displays Total Spend, Total Expenses count, and Top Spending Category in KPI stat cards.
-* Features a category-wise spending horizontal bar chart indicating percentages of total expenditure.
-* Lists recent transactions with a link to view the complete list.
-
-### 2. Expense List (`/expenses`)
-* Shows all expenditures in a table with formatted currency and date stamps.
-* Category filter dropdown dynamically updates the list and recalculates the filtered total sum.
-* Provides **Edit** and **Delete** buttons for each item with deletion prompt confirmation.
-
-### 3. Add Expense (`/add`)
-* Clean form collecting Title, Amount, Category, Date, and optional Description.
-* Instant client-side validation errors when submitting blank or invalid inputs.
-* Submits via Axios `POST /api/expenses` and redirects back to the list upon success.
-
-### 4. Edit Expense (`/edit/:id`)
-* Pre-loads the selected expense's current values into the form fields.
-* Submits via Axios `PUT /api/expenses/{id}` with validation.

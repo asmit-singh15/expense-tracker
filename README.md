@@ -220,7 +220,7 @@ Expense tracker/
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/your-username/expense-tracker.git
+git clone https://github.com/asmit-thakur/expense-tracker.git
 cd expense-tracker
 ```
 
